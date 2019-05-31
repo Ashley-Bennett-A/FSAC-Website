@@ -37,6 +37,7 @@ body {
 #header__logo {
     height: 50px;
     width: auto;
+    background-color: white;
 }
 
 .topNav #myLinks {
