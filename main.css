@@ -59,12 +59,17 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    height: 50px;
+    height: auto;
 }
 
 .topNav a:hover {
     background-color: var(--main-colour);
     color: white;
+}
+
+#button {
+    padding: 0;
+    outline:none;
 }
 
 .active {
