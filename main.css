@@ -1,0 +1,186 @@
+:root {
+    --main-colour: #0F4FAA;
+}
+
+body {
+    margin: 0;
+    color: var(--main-colour);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.home {
+    display: grid;
+    grid-template-columns:
+        auto;
+    grid-template-rows:
+        auto;
+    grid-template-areas:
+        "header"
+}
+
+
+.topNav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+
+#header__clubName {
+    text-align: center;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+}
+
+#header__logo {
+    height: 50px;
+    width: auto;
+}
+
+.topNav #myLinks {
+    display: none;
+}
+
+.topNav a {
+    color: var(--main-colour);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topNav a.icon {
+    background: var(--main-colour);
+    color: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+}
+
+.topNav a:hover {
+    background-color: var(--main-colour);
+    color: white;
+}
+
+.active {
+    background-color: #2B6FDE;
+    color: white !important;
+}
+
+video {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+}
+
+.videoContainer {
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.introText {
+    color: var(--main-colour);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slides img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: auto;
+}
+
+#bottom {
+    width: 90%;
+    height: auto;
+}
+
+.slides img#bottom {
+    animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-direction: alternate;
+}
+
+@keyframes FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.tryDive {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: rgb(10, 54, 116) 1px solid;
+    border-radius: 20px;
+    background-color: #0F4FAA;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    /* margin-left: 20px; 
+    margin-right: 20px; */
+    padding: 20px;
+    color: white;
+    background: var(--main-colour);
+}
