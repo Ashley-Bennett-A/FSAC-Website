@@ -9,18 +9,6 @@ body {
 }
 
 
-
-.home {
-    display: grid;
-    grid-template-columns:
-        auto;
-    grid-template-rows:
-        auto;
-    grid-template-areas:
-        "header"
-}
-
-
 .topNav {
     overflow: hidden;
     background-color: white;
@@ -35,7 +23,7 @@ body {
 }
 
 #header__logo {
-    height: 50px;
+    height: 80px;
     width: auto;
     background-color: white;
 }
@@ -62,14 +50,14 @@ body {
     height: auto;
 }
 
-.topNav a:hover {
+#myLinks a:hover {
     background-color: var(--main-colour);
     color: white;
 }
 
 #button {
     padding: 0;
-    outline:none;
+    outline: none;
 }
 
 .active {
@@ -105,7 +93,33 @@ video {
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    animation-name: RemoveOverlay;
+    animation-iteration-count: infinite;
+    animation-duration: 54s;
 }
+
+@keyframes RemoveOverlay {
+    0% {
+        opacity: 1;
+    }
+
+    77% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    83% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 
 .introText {
     color: var(--main-colour);
@@ -161,7 +175,7 @@ video {
 }
 
 .tryDive {
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -184,9 +198,77 @@ a {
 }
 
 .footer {
-    /* margin-left: 20px; 
-    margin-right: 20px; */
     padding: 20px;
     color: white;
     background: var(--main-colour);
+}
+
+#logo {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#club_intro {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#club_intro_list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding-left: 20px;
+}
+
+#club_charity {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#club_charity img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#club_members {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#members__heading {
+    font-size: 16pt;
+}
+
+table {
+    color: var(--main-colour);
+    text-align: left;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+tr:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+
+tr:hover {
+    background-color: #EEEEEE;
+}
+
+th {
+    background-color: var(--main-colour);
+    color: white;
 }
