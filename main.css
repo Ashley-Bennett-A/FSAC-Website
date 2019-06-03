@@ -331,3 +331,14 @@ th {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+#contacts__text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contacts__map {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}

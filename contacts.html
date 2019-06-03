@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <title>FSAC - Contacts</title>
+</head>
+
+<body>
+
+    <div class="dive_sites">
+        <div class="topNav">
+            <div class="headings">
+                <a href="./index.html">
+                    <img id="header__logo" src="./assets/FSACLogo.png" alt="">
+                </a>
+                <a href="./index.html">
+                    <h1 id="header__clubName">Flintshire<br> Sub-Aqua Club</h1>
+                </a>
+            </div>
+            <div id="myLinks">
+                <a href="./index.html">Home</a>
+                <a href="./club.html"> Club</a>
+                <a href="./members.html">Members</a>
+                <a href="./training.html">Training</a>
+                <a href="./dive_sites.html">Dive Sites</a>
+                <a class="active" href="">Contacts</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="displayNav()">
+                <button class="hamburger hamburger--collapse" type="button" id="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </a>
+
+        </div>
+        <br>
+        <div id="contacts__text">
+            <h1>Contacts</h1>
+            <p>Initial ‘Try Dive’ and Membership Enquires should be made via</p>
+            <b>Rosemary Davies - 07946733070 <br> email - <a href="mailto:roziedavies@hotmail.co.uk?Subject=Try%20Dive"
+                    target="_top">roziedavies@hotmail.co.uk</a></b>
+        </div>
+        <div id="contacts__map">
+            <h3>We meet every Wednesday at 19:30 at:</h3>
+            <p>Cambrian Aquatic Sports Centre <br>
+                Wepre Lane <br>
+                Connah's Quay <br>
+                Deeside <br>
+                CH5 4HA</p>
+
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=flintshire%20sub&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <style>
+
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
