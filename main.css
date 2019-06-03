@@ -57,13 +57,13 @@ body {
     margin-top: 10px;
 }
 
-.headings a{
+.headings a {
     color: var(--main-colour);
     padding: 0;
     text-decoration: none;
     /* font-size: 17px; */
     display: block;
-    
+
 }
 
 #myLinks a:hover {
@@ -75,7 +75,8 @@ body {
     padding: 0;
     outline: none;
 }
-.hamburger-inner{
+
+.hamburger-inner {
     background-color: white;
 }
 
@@ -257,10 +258,10 @@ a {
 }
 
 #club_members {
+    color: white;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--main-colour)
 }
 
 #members__heading {
@@ -292,7 +293,7 @@ tr:hover {
 }
 
 th {
-    background-color: var(--main-colour);
+    background-color: #2B6FDE;
     color: white;
 }
 
@@ -317,7 +318,7 @@ th {
     margin-bottom: 20px;
 }
 
-#training img {
+img {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -332,9 +333,10 @@ th {
     margin-bottom: 20px;
 }
 
-#contacts__text{
+#contacts__text {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #contacts__map {
