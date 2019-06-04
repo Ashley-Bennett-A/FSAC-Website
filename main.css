@@ -92,12 +92,13 @@ body {
 
 @keyframes slideDown {
     0% {
-      transform: translateY(-100%);
+        transform: translateY(-100%);
     }
+
     100% {
-      transform: translateY(0%);
+        transform: translateY(0%);
     }
-  }
+}
 
 video {
     vertical-align: middle;
@@ -357,4 +358,17 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
+}
+
+#try-dive {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a:link {
+    text-decoration: none;
 }
