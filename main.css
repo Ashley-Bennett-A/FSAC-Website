@@ -23,6 +23,10 @@ body {
     margin: auto;
 }
 
+.larger {
+    font-size: 24pt
+}
+
 
 #header__logo {
     height: 80px;
