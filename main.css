@@ -8,9 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-li {
-    list-style-type: none;
-}
+
 
 
 .topNav {
@@ -232,6 +230,19 @@ video {
     padding-bottom: 5px;
 }
 
+.button_white {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: rgb(10, 54, 116) 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    color: #0F4FAA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 a {
     text-decoration: none;
 }
@@ -383,4 +394,11 @@ img {
 
 }
 
-#sites {}
+#sites li {
+    list-style-type: none;
+}
+
+#coastal-sites {
+    margin-left: 20px;
+    margin-right: 20px;
+}
