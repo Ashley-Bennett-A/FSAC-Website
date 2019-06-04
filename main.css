@@ -512,8 +512,8 @@ img {
     }
 
     #training_img2 {
-        width: 45%;
-        height: 562345%;
+        width: 350px;
+        height: 100%;
         margin-top: -20px;
     }
 }
