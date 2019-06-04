@@ -416,3 +416,104 @@ img {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+@media screen and (min-width:611px) {
+    .topNav {
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .topNav #myLinks {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headings {
+        margin-bottom: 20px;
+    }
+
+    #header__logo {
+        height: 120px;
+        width: auto;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+
+    .larger {
+        font-size: 30pt
+    }
+
+    #header__clubName {
+        margin-top: 20px;
+        font-size: 26pt;
+        margin-left: 100px;
+
+        white-space: nowrap
+    }
+
+    #myLinks a {
+        float: left;
+        display: flex;
+        color: var(--main-colour);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        height: 20px;
+        width: auto;
+        border-radius: 4px;
+    }
+
+    #myLinks a:hover {
+        background-color: var(--main-colour);
+        color: white;
+    }
+
+    .active {
+        background-color: #2B6FDE;
+        color: white;
+    }
+
+    .topNav a.icon {
+        display: none;
+    }
+
+    .overlay {
+        font-size: 40pt;
+        justify-content: space-between;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #visitUs {
+        margin-right: 30px;
+    }
+
+    .mapouter {
+        width: 55%;
+    }
+
+    #BSACLogo {
+        width: 126px;
+    }
+
+    #training_table {
+        margin-bottom: 20px;
+    }
+
+    #training_list {
+        text-align: left;
+    }
+
+    #training_img2 {
+        width: 45%;
+        height: 562345%;
+        margin-top: -20px;
+    }
+}
