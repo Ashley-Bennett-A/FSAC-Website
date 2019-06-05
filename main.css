@@ -168,6 +168,10 @@ video {
     margin-right: 20px;
 }
 
+#main-img {
+    display: none;
+}
+
 .slides img {
     border-radius: 8px;
     display: block;
@@ -484,6 +488,28 @@ img {
     .overlay {
         font-size: 40pt;
         justify-content: space-between;
+    }
+
+    #intro {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .introText {
+        width: 550px;
+        /* margin-left: auto; */
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    #main-img {
+        display: block;
+        width: 330px;
+        height: auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     #home-footer {
