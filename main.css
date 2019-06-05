@@ -486,7 +486,7 @@ img {
         justify-content: space-between;
     }
 
-    .footer {
+    #home-footer {
         display: flex;
         flex-wrap: wrap;
     }
@@ -513,7 +513,16 @@ img {
 
     #training_img2 {
         width: 350px;
-        height: 100%;
-        margin-top: -20px;
+        height: auto;
+    }
+
+    #training-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #training-text {
+        width: 50%;
+        margin-right: 20px;
     }
 }
