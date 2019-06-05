@@ -514,19 +514,25 @@ img {
 
     #home-footer {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+        margin-bottom: 20px;
     }
 
     #visitUs {
         margin-right: 30px;
+        width: 300px;
     }
 
     .mapouter {
-        width: 55%;
+        width: 50%;
     }
 
     #BSACLogo {
         width: 126px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     #training_table {
