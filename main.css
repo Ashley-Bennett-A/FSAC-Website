@@ -421,6 +421,12 @@ img {
     margin-right: 20px;
 }
 
+#BSACLogo {
+    width: 126px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (min-width:611px) {
     .topNav {
         overflow: hidden;
@@ -512,6 +518,22 @@ img {
         margin-bottom: 20px;
     }
 
+    .tryDive {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #tryDive-text {
+        width: 550px;
+    }
+
+    #tryDive-button {
+        width: 50%;
+    }
+
+
+
     #home-footer {
         display: flex;
         justify-content: space-around;
@@ -532,7 +554,6 @@ img {
         width: 126px;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     #training_table {
