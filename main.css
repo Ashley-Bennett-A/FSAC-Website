@@ -73,6 +73,11 @@ body {
 #myLinks a:hover {
   background-color: var(--main-colour);
   color: white;
+  transform: scale(1.1);
+}
+
+#myLinks a:active {
+  transform: scale(1);
 }
 
 #button {
@@ -230,6 +235,15 @@ video {
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
+  transition: 100ms;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(1);
 }
 
 .button_white {
@@ -472,6 +486,7 @@ img {
     height: 20px;
     width: auto;
     border-radius: 4px;
+    transition: 100ms;
   }
 
   #myLinks a:hover {
